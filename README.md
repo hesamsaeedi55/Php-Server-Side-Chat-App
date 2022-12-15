@@ -1,47 +1,8 @@
+<img width="927" alt="AuthController" src="https://user-images.githubusercontent.com/118046088/207975012-02f95064-2340-482c-9bb3-9df9001963b1.png">
 
-
-<?php
-
-
-namespace App\Http\Controllers;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use App\Models\User;
-
-
-class AuthController extends Controller
-{
-    public function register(Request $request) {
-        $request->validate([
-        'name' => 'required',
-        'email' => 'required|unique:users',
-        'password' => 'required'
-        ]);
-
-        $user = User::create(['name'=> $request->name, 'email' => $request->email, 'password' => Hash::make($request->password)]);
-        return ['token' => $user->createToken('my-token')->plainTextToken];
-
-        return $user;
-    }
-
-
-    public function login(Request $request) {
-        $request->validate([
-        'email' => 'required',
-        'password' => 'required'
-        ]);
-
-        $user = User::where('email', $request->email)->first();
- 
-        if (! $user || ! Hash::check($request->password, $user->password)) {
-
-            return ['error' => 'The provided credentials are incorrect.'];
-        }
-     
-        return ['token' => $user->createToken('my-token')->plainTextToken];
-    }
-}
-
+<img width="802" alt="ChatController1" src="https://user-images.githubusercontent.com/118046088/207975210-f6c487e5-627c-4391-b42a-d2ea0a447183.png">
+<img width="762" alt="ChatController2" src="https://user-images.githubusercontent.com/118046088/207975216-cbf2424d-a499-4e84-aa0b-4fefd7aa4431.png">
+<img width="812" alt="API" src="https://user-images.githubusercontent.com/118046088/207975221-c94b471b-78f3-403c-b656-028c515b5cab.png">
 
 
 
