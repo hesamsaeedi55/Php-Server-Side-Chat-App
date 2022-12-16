@@ -1,9 +1,18 @@
+
+## Auth Controller Php file ##
 <img width="927" alt="AuthController" src="https://user-images.githubusercontent.com/118046088/207975012-02f95064-2340-482c-9bb3-9df9001963b1.png">
 
-<img width="802" alt="ChatController1" src="https://user-images.githubusercontent.com/118046088/207975210-f6c487e5-627c-4391-b42a-d2ea0a447183.png">
-<img width="762" alt="ChatController2" src="https://user-images.githubusercontent.com/118046088/207975216-cbf2424d-a499-4e84-aa0b-4fefd7aa4431.png">
-<img width="812" alt="API" src="https://user-images.githubusercontent.com/118046088/207975221-c94b471b-78f3-403c-b656-028c515b5cab.png">
+## Chat Controller Php file part1 ##
 
+<img width="802" alt="ChatController1" src="https://user-images.githubusercontent.com/118046088/207975210-f6c487e5-627c-4391-b42a-d2ea0a447183.png">
+
+## Chat Controller Php file part2 ##
+
+<img width="762" alt="ChatController2" src="https://user-images.githubusercontent.com/118046088/207975216-cbf2424d-a499-4e84-aa0b-4fefd7aa4431.png">
+
+## API Php file ##
+
+<img width="812" alt="API" src="https://user-images.githubusercontent.com/118046088/207975221-c94b471b-78f3-403c-b656-028c515b5cab.png">
 
 
 
